@@ -291,11 +291,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 关注我
-      link: https://github.com/xxxxxx
+      text: follow me
+      link: https://github.com/
   card_announcement:
     enable: true
-    content: PPSHUAI 正在上网冲浪中……🌊
+    content: PPSHUAI 正在上网冲浪中ing...🌊
   card_recent_post:
     enable: true
     # 如果设置为 0，将显示所有
