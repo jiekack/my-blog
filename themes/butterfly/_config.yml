@@ -141,9 +141,9 @@ post_meta:
 # 主页的 top_img 设置
 # 默认: 顶图 - 全屏，网站信息 - 居中
 # 网站信息的位置，例如: 300px/300em/300rem/10%
-index_site_info_top: 100px
+index_site_info_top: 90px
 # top_img 的高度，例如: 300px/300em/300rem
-index_top_img_height: 300px
+index_top_img_height: 270px
 
 # 首页副标题
 subtitle:
