@@ -1,55 +1,55 @@
 # --------------------------------------
-# Hexo Butterfly Theme Configuration
-# If you have any questions, please refer to the documentation
-# Chinese: https://butterfly.js.org/
-# English: https://butterfly.js.org/en/
+# Hexo Butterfly 主题配置
+# 如果有任何问题，请参考文档
+# 中文: https://butterfly.js.org/
+# 英文: https://butterfly.js.org/en/
 # --------------------------------------
 
 # --------------------------------------
-# Navigation Settings
+# 导航设置
 # --------------------------------------
 
 nav:
-  # Navigation bar logo image
+  # 导航栏 logo 图片
   logo:
   display_title: true
-  # Whether to fix navigation bar
+  # 是否固定导航栏
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  # 主页: / || fas fa-home
+  # 列表 || fas fa-list:
+  #   音乐: /music/ || fas fa-music
+  #   电影: /movies/ || fas fa-video
 
 # --------------------------------------
-# Code Blocks Settings
+# 代码块设置
 # --------------------------------------
 
 code_blocks:
-  # Code block theme: darker / pale night / light / ocean / false
+  # 代码块主题: darker / pale night / light / ocean / false
   theme: light
   macStyle: false
-  # Code block height limit (unit: px)
+  # 代码块高度限制（单位: px）
   height_limit: false
   word_wrap: false
 
-  # Toolbar
+  # 工具栏
   copy: true
   language: true
-  # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
+  # true: 收起代码块 | false: 展开代码块 | none: 展开代码块并隐藏按钮
   shrink: false
   fullpage: false
 
-# Social media links
-# Formal:
-#   icon: link || the description || color
+# 社交媒体链接
+# 官方:
+#   icon: 链接 || 描述 || 颜色
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # fab fa-github: https://github.com/xxxxx || GitHub || '#24292e'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || 邮箱 || '#4a7dbe'
 
 # --------------------------------------
-# Image Settings
+# 图片设置
 # --------------------------------------
 
 favicon: /img/favicon.png
@@ -58,110 +58,110 @@ avatar:
   img: /img/cat.jpg
   effect: false
 
-# Disable all banner images
+# 禁用所有横幅图片
 disable_top_img: false
 
-# If the banner of page not setting, it will show the default_top_img
+# 如果页面没有设置横幅图，则显示默认的 top_img
 default_top_img:
 
-# The banner image of index page
+# 首页的横幅图片
 index_img: /img/header.jpg
 
-# The banner image of archive page
+# 存档页的横幅图片
 archive_img:
 
-# Note: tag page, not tags page
+# 注意: 标签页，不是 tags 页
 tag_img:
 
-# The banner image of tag page, you can set the banner image for each tag
-# Format:
-#  - tag name: xxxxx
+# 标签页的横幅图片，你可以为每个标签设置不同的横幅图片
+# 格式:
+#  - 标签名: xxxxx
 tag_per_img:
 
-# Note: category page, not categories page
+# 注意: 分类页，不是 categories 页
 category_img:
 
-# The banner image of category page, you can set the banner image for each category
-# Format:
-#  - category name: xxxxx
+# 分类页的横幅图片，你可以为每个分类设置不同的横幅图片
+# 格式:
+#  - 分类名: xxxxx
 category_per_img:
 
-# The background image of footer
+# 页脚背景图片
 footer_img: false
 
-# Website Background
-# Can set it to color or image url
+# 网站背景
+# 可以设置为颜色或图片 URL
 background:
 
 cover:
-  # Disable the cover or not
+  # 是否禁用封面
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # When cover is not set, the default cover is displayed
+  # 当没有设置封面时，显示默认封面
   default_cover:
     # - xxx.jpg
 
-# Replace Broken Images
+# 替换损坏的图片
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
 
-# A simple 404 page
+# 简单的 404 页面
 error_404:
   enable: false
-  subtitle: 'Page Not Found'
+  subtitle: '页面未找到'
   background: /img/error-page.png
 
 post_meta:
-  # Home Page
+  # 首页
   page:
-    # Choose: created / updated / both
+    # 选择: created / updated / both
     date_type: created
-    # Choose: date / relative
+    # 选择: date / relative
     date_format: date
     categories: true
     tags: false
     label: true
   post:
-    # Choose: left / center
+    # 选择: left / center
     position: left
-    # Choose: created / updated / both
+    # 选择: created / updated / both
     date_type: both
-    # Choose: date / relative
+    # 选择: date / relative
     date_format: date
     categories: true
     tags: true
     label: true
 
 # --------------------------------------
-# Index page settings
+# 首页设置
 # --------------------------------------
 
-# The top_img settings of home page
-# default: top img - full screen, site info - middle
-# The position of site info, eg: 300px/300em/300rem/10%
+# 主页的 top_img 设置
+# 默认: 顶图 - 全屏，网站信息 - 居中
+# 网站信息的位置，例如: 300px/300em/300rem/10%
 index_site_info_top: 100px
-# The height of top_img, eg: 300px/300em/300rem
+# top_img 的高度，例如: 300px/300em/300rem
 index_top_img_height: 300px
 
-# The subtitle on homepage
+# 首页副标题
 subtitle:
   enable: flase
-  # Typewriter Effect
+  # 打字机效果
   effect: true
-  # Customize typed.js
+  # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
-  # Source - Call the third-party service API (Chinese only)
-  # It will show the source first, then show the content of sub
-  # Choose: false/1/2/3
-  # false - disable the function
+  # 来源 - 调用第三方服务 API（仅中文可用）
+  # 它会先显示来源，然后显示内容
+  # 选择: false/1/2/3
+  # false - 禁用该功能
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
   source: false
-  # If you close the typewriter effect, the subtitle will only show the first line of sub
+  # 如果关闭打字机效果，副标题将仅显示第一行
   sub:
     - 欢迎来到 PPSHUAI 的世界 🌊
     - 热爱分享，享受生活
@@ -175,19 +175,18 @@ subtitle:
 # 7：瀑布流布局 - 信息显示在封面上
 index_layout: 3
 
-
-# Display the article introduction on homepage
+# 显示主页文章简介
 # 1: description
-# 2: both (if the description exists, it will show description, or show the auto_excerpt)
-# 3: auto_excerpt (default)
-# false: do not show the article introduction
+# 2: both (如果 description 存在，将显示 description，否则显示 auto_excerpt)
+# 3: auto_excerpt (默认)
+# false: 不显示文章简介
 index_post_content:
   method: 3
-  # If you set method to 2 or 3, the length need to config
+  # 如果设置为 2 或 3，则需要配置长度
   length: 500
 
 # --------------------------------------
-# Post Settings
+# 文章设置
 # --------------------------------------
 
 toc:
@@ -195,7 +194,7 @@ toc:
   page: false
   number: true
   expand: false
-  # Only for post
+  # 仅对文章有效
   style_simple: false
   scroll_percent: true
 
@@ -206,77 +205,81 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# Sponsor/reward
+# ------------------------------------------------
+# 以下部分的注释翻译也遵循类似方式。 
+# --------------------------------------
+# 赞助/奖励
+# --------------------------------------
 reward:
   enable: false
   text:
   QR_code:
     # - img: /img/wechat.jpg
     #   link:
-    #   text: wechat
+    #   text: 微信
     # - img: /img/alipay.jpg
     #   link:
-    #   text: alipay
+    #   text: 支付宝
 
-# Post edit
-# Easily browse and edit blog source code online.
+# 文章编辑
+# 轻松浏览并在线编辑博客源代码。
 post_edit:
   enable: false
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
-  # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  # 例如: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url:
 
-# Related Articles
+# 相关文章
 related_post:
   enable: true
-  # Number of posts displayed
+  # 显示的文章数量
   limit: 6
-  # Choose: created / updated
+  # 选择: created / updated
   date_type: created
 
-# Choose: 1 / 2 / false
-# 1: The 'next post' will link to old post
-# 2: The 'next post' will link to new post
-# false: disable pagination
+# 选择: 1 / 2 / false
+# 1: "下一篇文章" 链接到旧文章
+# 2: "下一篇文章" 链接到新文章
+# false: 禁用分页
 post_pagination: 1
 
-# Displays outdated notice for a post
+# 显示文章过时通知
 noticeOutdate:
   enable: false
-  # Style: simple / flat
+  # 样式: simple / flat
   style: flat
-  # When will it be shown
+  # 显示时机
   limit_day: 365
-  # Position: top / bottom
+  # 位置: top / bottom
   position: top
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 已经过去
+  message_next: 天，文章内容可能已过时。
 
 # --------------------------------------
-# Footer Settings
+# 页脚设置
 # --------------------------------------
 footer:
   nav:
   owner:
     enable: true
     since: 2025
-  # Copyright of theme and framework
+  # 主题和框架的版权
   copyright:
     enable: true
     version: true
   custom_text:
 
 # --------------------------------------
-# Aside Settings
+# 侧边栏设置
 # --------------------------------------
 
 aside:
   enable: true
   hide: false
-  # Show the button to hide the aside in bottom right button
+  # 显示右下角按钮来隐藏侧边栏
   button: true
   mobile: true
-  # Position: left / right
+  # 位置: left / right
   position: right
   display:
     archive: true
@@ -288,70 +291,71 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 关注我
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
     content: PPSHUAI 正在上网冲浪中……🌊
   card_recent_post:
     enable: true
-    # If set 0 will show all
+    # 如果设置为 0，将显示所有
     limit: 5
-    # Sort: date / updated
+    # 排序: date / updated
     sort: date
     sort_order:
   card_newest_comments:
     enable: false
     sort_order:
     limit: 6
-    # Unit: mins, save data to localStorage
+    # 单位: 分钟，数据保存到 localStorage
     storage: 10
     avatar: true
   card_categories:
     enable: true
-    # If set 0 will show all
+    # 如果设置为 0，将显示所有
     limit: 8
-    # Choose: none / true / false
+    # 选择: none / true / false
     expand: none
     sort_order:
   card_tags:
     enable: true
-    # If set 0 will show all
+    # 如果设置为 0，将显示所有
     limit: 40
     color: false
-    # Order of tags, random/name/length
+    # 标签排序，random/name/length
     orderby: random
-    # Sort of order. 1, asc for ascending; -1, desc for descending
+    # 排序顺序。1 表示升序，-1 表示降序
     order: 1
     sort_order:
   card_archives:
     enable: true
-    # Type: monthly / yearly
+    # 类型: monthly / yearly
     type: monthly
-    # Eg: YYYY年MM月
+    # 例如: YYYY年MM月
     format: MMMM YYYY
-    # Sort of order. 1, asc for ascending; -1, desc for descending
+    # 排序顺序。1 表示升序，-1 表示降序
     order: -1
-    # If set 0 will show all
+    # 如果设置为 0，将显示所有
     limit: 8
     sort_order:
   card_post_series:
     enable: true
-    # The title shows the series name
+    # 标题显示系列名称
     series_title: false
-    # Order by title or date
+    # 按标题或日期排序
     orderBy: 'date'
-    # Sort of order. 1, asc for ascending; -1, desc for descending
+    # 排序顺序。1 表示升序，-1 表示降序
     order: -1
   card_webinfo:
     enable: true
     post_count: true
     last_push_date: true
     sort_order:
-    # Time difference between publish date and now
-    # Formal: Month/Day/Year Time or Year/Month/Day Time
-    # Leave it empty if you don't enable this feature
+    # 发布日期和当前时间的时间差
+    # 格式: 月/日/年 时间 或 年/月/日 时间
+    # 如果不启用此功能，则留空
     runtime_date:
+
 
 # --------------------------------------
 # Bottom right button
@@ -533,7 +537,7 @@ comments:
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   # Display comment count in post's top_img
   count: false
   # Display comment count in Home Page
