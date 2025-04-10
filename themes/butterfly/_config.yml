@@ -295,7 +295,7 @@ aside:
       link: https://github.com/jiekack
   card_announcement:
     enable: true
-    content: PPSHUAI 正在上网冲浪中ing...🌊
+    content: 正在高山、深林、冰川、草原、沙漠、海洋寻宝中······🔥🔥
   card_recent_post:
     enable: true
     # 如果设置为 0，将显示所有
@@ -490,7 +490,7 @@ search:
     # Preload the search data when the page loads.
     preload: false
     # Show top n results per article, show all results by setting to -1
-    top_n_per_article: 1
+    top_n_per_article: 2
     # Unescape html strings to the readable one.
     unescape: false
     CDN:
@@ -782,16 +782,21 @@ text_align_justify: false
 mask:
   header: true
   footer: true
-
+#加载动画
 # Loading Animation
 preloader:
   enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  #pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/themes/blue/pace-theme-center-circle.css
+  #pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/themes/blue/pace-theme-center-radar.css
+  #pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/themes/blue/pace-theme-big-counter.css
+  pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/themes/blue/pace-theme-center-simple.css
+
+
 
 # Page Transition
 enter_transitions: true
